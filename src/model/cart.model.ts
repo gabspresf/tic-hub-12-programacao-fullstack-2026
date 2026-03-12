@@ -21,8 +21,8 @@ export class Cart {
 
     getTotalItems():number {
         let total = 0;
-        this.items.forEach(item=> {
-            total += item.quantity
+        this.items.forEach(item => {
+            total += item.quantity;
         });
         return total;
     }
@@ -35,8 +35,3 @@ export class Cart {
         return finalPrice;
     }
 }
-
-// "para cada item que eu pegar, some a quantidade dele no meu total"
-
-// forEach: para cada item, pegamos a quantidade e somamos no total
-// não basta somar o preço do produto, tem que multiplicar pela quantidade que o usuário escolheu

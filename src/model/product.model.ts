@@ -12,7 +12,7 @@ export class Product implements IProduct {
         public id:number,
         public name:string,
         public price:number,
-        public category:Category // o produto "recebe" uma categoria inteira
+        public category:Category
 ){}
 
 }
