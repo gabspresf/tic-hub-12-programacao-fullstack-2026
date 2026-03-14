@@ -36,7 +36,6 @@ export default {
       this.cart.total -= 1
     },
     finalPrice() {
-      // preço final
       return this.cart.list.reduce((soma, item) => {
         return soma + item.product.price * item.quantity
       }, 0)
