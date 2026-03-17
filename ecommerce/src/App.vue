@@ -57,8 +57,7 @@ export default {
       }, 0)
     },
   },
-  components: { ProductCard },
-  InputNumber,
+  components: { ProductCard, InputNumber },
 }
 </script>
 
